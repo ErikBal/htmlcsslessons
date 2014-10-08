@@ -1,0 +1,45 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">
+      <strong>
+        <i>
+          What is a DEFINITION LIST?
+        </i>
+      </strong>
+    </h3>
+  </div>
+  <div class="panel-body">
+    <ul class="list-group">
+    <li class="list-group-item">
+        <p>Definition lists (<?php $t->cHTML('<dl>'); ?>) are list elements that have a unique array of tags and elements; the resulting listings are similar to those 
+        you would see in a dictionary.  These lists displace the word term (<?php $t->cHTML('<dt>'); ?>) in such a way that it rests just above the definition 
+        element (<?php $t->cHTML('<dd>'); ?>) to offer a very unique look.</p>
+      </li>
+      <li class="list-group-item">
+        <strong>DEFINITION LIST Example:</strong>
+      </li>
+      <li class="list-group-item">
+        <pre><code><?php $t->cHTML('<!DOCTYPE html>
+<html>
+     <head>
+         <title> 
+            <!-- Title Here -->
+         </title>
+         <!--Code Here-->
+     </head>
+     <body>    
+       <dl>
+        <dt>Hola</dt>
+          <dd>Spanish word for "hello".</dd>
+        <dt>Bailar</dt>
+          <dd>Spanish verb for "to dance".</dd>
+        </dt>
+       </dl>
+     </body>
+</html>
+'); ?>
+</code></pre>
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,64 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">
+      <strong>
+        <i>
+          What are UNORDERED LIST TYPES?
+        </i>
+      </strong>
+    </h3>
+  </div>
+  <div class="panel-body">
+    <ul class="list-group">
+    <li class="list-group-item">
+        <p>To render a list with a different bullet type, add a type attribute to the unordered list element.</p>
+      </li>
+      <li class="list-group-item">
+        <strong>SQUARE Example:</strong>
+      </li>
+      <li class="list-group-item">
+        <pre><code><?php $t->cHTML('<!DOCTYPE html>
+<html>
+     <head>
+         <title> 
+            <!-- Title Here -->
+         </title>
+         <!--Code Here-->
+     </head>
+     <body>    
+       <ul>
+          <li type="square">Item One</li>
+          <li>Item Two</li>
+          <li>Item Three</li>
+       </ul>
+     </body>
+</html>
+'); ?>
+</code></pre>
+      </li>
+      <li class="list-group-item">
+        <strong>CIRCLE Example:</strong>
+      </li>
+      <li class="list-group-item">
+        <pre><code><?php $t->cHTML('<!DOCTYPE html>
+<html>
+     <head>
+         <title> 
+            <!-- Title Here -->
+         </title>
+         <!--Code Here-->
+     </head>
+     <body>    
+       <ul>
+          <li type="circle">Item One</li>
+          <li>Item Two</li>
+          <li>Item Three</li>
+       </ul>
+     </body>
+</html>
+'); ?>
+</code></pre>
+      </li>
+    </ul>
+  </div>
+</div>
