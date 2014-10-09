@@ -23,7 +23,7 @@
 <html>
      <head>
          <title> 
-               A title, which helps search engines to find your website.
+               <!-- Title Here -->
          </title>
          <!--Code Here-->
      </head>
