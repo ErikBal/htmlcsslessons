@@ -10,7 +10,7 @@
   </div>
   <div class="panel-body">
     <p>
-      The <?php $t->cHTML('<HEAD>'); ?> element displays little for the viewers themselves but is very important for e.g search engines and loading external files before the body of the page is rendered. For example you could load a external CSS (Cascading Style Sheet) or an external JS (Javascript) file.
+      The <?php $t->cHTML('<HEAD>'); ?> element displays little for the viewers themselves but is very important for loading external files before the body of the page is rendered. For example you could load a external CSS (Cascading Style Sheet) or an external JS (Javascript) file.
     </p>
     <ul class="list-group">
       <li class="list-group-item">
